@@ -16,3 +16,13 @@ else :
     print("시벌로마 제대로 입력해라")
 
 print("결과는 : ", d , " 입니다")
+#--------------------------------------------------
+'''------------------------------------------------'''
+def summer(n) :
+    for a in range (1,101,2) :
+        n += a
+
+    return n
+
+n = int(input("insert number"))
+print("result is : ", summer(n))
