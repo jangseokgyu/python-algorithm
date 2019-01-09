@@ -26,3 +26,12 @@ def summer(n) :
 
 n = int(input("insert number"))
 print("result is : ", summer(n))
+#---------------------------------------------------
+def dynamic(n):
+    temp = 1
+    for a in range(1,n+1):
+        temp = 2*temp
+    return temp
+
+print(dynamic(6))
+
