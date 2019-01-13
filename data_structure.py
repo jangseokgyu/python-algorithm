@@ -35,3 +35,8 @@ def dynamic(n):
 
 print(dynamic(6))
 
+def insit(n) :
+    return n*n
+
+print(insit(3))
+
